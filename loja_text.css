@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+
+}
+body{
+    background-image: url(img/img\ tv\ \(3\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+.campo #vermelho, #verde, #azul, #voltar, #ciano{
+    width: 100px;
+    height: 35px;
+    border: 1px 1px 1px;
+    border-radius: 1em;
+}
+nav{
+    background-color: #e6e9e9;
+    height: 10px;
+    padding: 2em;
+    
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width:950px){
+    .campo{
+        display: flex;
+        justify-content: end;
+        flex-direction: column;
+    }
+    body{
+        background-image: url(img/img\ tv\ \(3\).png);   
+    }
+    
+}
+

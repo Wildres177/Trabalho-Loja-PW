@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade</title>
+    <link rel="stylesheet" href="loja_text.css">
+
+</head>
+<body>
+
+    <nav>
+        <h1>CLIQUE EM UMA COR PARA TESTA-LA!</h1>
+    </nav>
+   
+    <br>
+    <div class="campo">
+        <button onclick="bt4()" id="voltar">Voltar</button>
+        <button onclick="bt()" id="vermelho">Vermelho</button>
+        <button onclick="bt2()" id="verde">verde</button>
+        <button onclick="bt3()" id="azul">azul</button>
+        <button onclick="bt5()" id="ciano">ciano</button>
+        
+    </div>
+
+    <script>
+        function bt(){
+            
+            document.querySelector('body').style.backgroundColor="red"
+        }
+        function bt2(){
+            document.querySelector('body').style.backgroundColor="green"
+        }
+        function bt3(){
+            document.querySelector('body').style.backgroundColor="blue"
+        }
+        function bt4(){
+            document.querySelector('body').style.backgroundColor = "white"
+        }
+        function bt5(){
+            document.querySelector('body').style.backgroundColor ="rgb(31, 219, 157"
+        }
+
+    </script>
+
+</body>
+</html>
